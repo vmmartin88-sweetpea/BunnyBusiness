@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pleasant Ridge Rabbitry | Adolphus, KY</title>
+    <style>
+        html { scroll-behavior: smooth; }
+        
+        /* Matching the Dark Green / Light Green Theme */
+        body { 
+            font-family: 'Georgia', serif; 
+            background-color: #f4f1ea; 
+            padding: 15px; 
+            line-height: 1.4; 
+            color: #90EE90; /* Light Green text */
+            margin: 0; 
+        }
+        
+        .container { 
+            max-width: 700px; 
+            margin: 0 auto; 
+            background: #002200; /* Dark Green Background */
+            padding: 25px; 
+            border-radius: 15px; 
+            border: 5px solid #004d00; /* Dark Green Border */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3); 
+        }
+        
+        h1, h2, h3, h4 { 
+            color: #7cfc00; /* Lawngreen for visibility */
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5); 
+            text-align: center; 
+            font-weight: bold; 
+            text-transform: capitalize; 
+        }
+
+        h1 { font-size:1.5
+        .5em; margin: 15px 0; color: #7cfc00; }
+        
+        h2 { 
+            font-size: 1.5em; 
+            border-bottom: 2px solid #004d00; 
+            padding-bottom: 10px; 
+            margin-top: 30px;
+        }
+
+        /* Sticky Navigation */
+        .nav-box { 
+            background-color: #004d00; 
+            padding: 12px; 
+            border-radius: 10px; 
+            text-align: center; 
+            margin-bottom: 20px; 
+            position: sticky; 
+            top: 0; 
+            z-index: 100;
+            border: 2px solid #90EE90;
+        }
+        .nav-box a { color: #90EE90; margin: 0 10px; text-decoration: none; font-weight: bold; font-size: 0.8em; text-transform: uppercase; }
+        
+        /* Section Boxes */
+        .litter-section, .contact-card, .garden-box { 
+            border: 3px solid #004d00; 
+            padding: 15px; 
+            border-radius: 10px; 
+            margin-bottom: 25px; 
+            text-align: center; 
+            background-color: #003300; /* Slightly different green for boxes */
+        }
+        
+        img { 
+            max-width: 100%; 
+            height: auto; 
+            border-radius: 8px; 
+            margin: 10px auto; 
+            border: 2px solid #004d00;
+            display: block; 
+        }
+
+        .grad-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; }
+        .hero-img { grid-column: span 2; width: 100%; }
+
+        .description-text { font-size: 0.75em; color: #ccffcc; margin-top: 10px; text-align: center; padding: 0 10px; }
+
+        /* Buttons & Links */
+        .btn-green { 
+            display: inline-block; 
+            background: #5d6d3e; 
+            color: white; 
+            padding: 12px 25px; 
+            text-decoration: none; 
+            border-radius: 30px; 
+            font-weight: bold; 
+            margin: 20px 0;
+            border: 2px solid #7cfc00;
+        }
+        
+        .contact-info a { color: #7cfc00; text-decoration: none; font-weight: bold; }
+        
+        .footer { font-size: 0.7em; color: #7cfc00; text-align: center; margin-top: 30px; border-top: 1px solid #004d00; padding-top: 15px; opacity: 0.8; }
+    </style>
+</head>
+<body>
+
+    <h1>Pleasant Ridge Rabbitry</h1>
+    <p style="text-align: center; font-style: times new roman; color: #004d00; margin-top: -10px; font-weight: bold;">"Heart-Tamed Companions"</p>
+
+    <div class="nav-box">
+        <nav>
+            <a href="about.html">About Us</a>
+            <a href="care.html">Care Guide</a>
+            <a href="#toddlers">Toddlers</a>
+            <a href="#juniors">Juniors</a>
+            <a href="#graduates">Grads</a>
+        </nav>
+    </div>
+
+    <div class="container">
+        <p style="text-align: center; font-weight: bold; color: #7cfc00; margin-top: 0; font-size: 1.0em;">Flemish Giants Make Great Pets! ❤️</p>
+        <p style="text-align: center; font-size: 0.85em; color: #90EE90;">Located in <b>Adolphus, Kentucky</b>.</p>
+
+        <h2>Available Litters</h2>
+
+        <div class="litter-section" id="toddlers">
+            <h3>The "Toddlers"</h3>
+            <p>Born Feb 2026 - 7 Kits Available.  5 bucks & 2 does</p>
+            <div class="grad-grid">
+                <img src="toddlers.jpg" alt="toddlers" class="hero-img">
+                <img src="toddler2.jpg" alt="Toddler 2"> 
+                <img src="toddler1.jpg" alt="Toddler 3"> 
+                <img src="toddler8.jpg" alt="toddler 7"> 
+                <img src="toddler4.jpg" alt="Toddler 4"> 
+                <img src="toddler6.jpg" alt="Toddler 6"> 
+                <img src="toddler3.jpg" alt="toddler 3"> 
+            </div>
+            <p class="description-text">These kits have transitioned from milk to solids. They are at their most playful "popcorn" stage! Handled daily for the best temperament.</p>
+        </div>
+
+        <div class="litter-section" id="juniors">
+            <h3>The "Juniors"</h3>
+            <p>Born Dec 2025 - 4 Giants Available</p>
+            <div class="grad-grid">
+                <img src="junior1.jpg" alt="junior 1" class="hero-img">
+                <img src="junior2.jpg" alt="junior 2"> 
+                <img src="Juniors3.jpg" alt="Juniors 3">
+             <img  src="Juniors4.jpg" alt="Juniors4 4"">
+            </div>
+            <p class="description-text">Our Juniors are socialized to household sights and sounds to ensure they grow up to be brave companions.</p>
+        </div>
+
+        <div class="litter-section" id="graduates">
+            <h3>The "Graduates"</h3>
+            <p>Born Nov 2025 - 4 Giants Ready for Pickup.  3 bucks & 1 doe</p>
+            <div class="grad-grid">
+                <img src="graduate1.jpg" alt="graduate 1" class="hero-img">
+                <img src="graduate2.jpg" alt="graduate 2">
+                <img src="graduate3.jpg" alt="graduate 3">
+            </div>
+            <p class="description-text">The Graduates have completed their 'Heart-Tamed' journey! Socialized and ready for their forever homes.</p>
+        </div>
+
+        <div style="text-align: center;">
+            <a href="sms:+12709438371" class="btn-green">📲 Text the Breeder</a>
+        </div>
+
+        <div class="garden-box" id="garden">
+            <h4>The Pleasant Ridge Garden</h4>
+            <p>Operation Bunny Gold Bloom! Trialing organic rabbit manure for flowers. <br><span style="color:#7cfc00;">Coming Soon: <b>"Bunny Gold"</b> Fertilizer!</span></p>
+        </div>
+
+        <section class="contact-card">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <p><strong>Location:</strong> Adolphus, Kentucky</p>
+                <p><strong>Email:</strong> <a href="mailto:vmmartin88.com">Send an Email</a></p>
+                <p><strong>Follow Us:</strong> <a href="#">https://www.facebook.com/share/1XPJXu6JE8/</a></p>
+            </div>
+            <p style="font-size: 0.85em; font-style: italic; color: #ccffcc;">Please allow 24-48 hours for a response while we are in the rabbitry!</p>
+        </section>
+ <div class="sales-policy-box">
+            
+        </div>
+        <div class="footer">
+             <div class="sales-policy-box">
+            <strong>Sales Policy:</strong>
+            <p>All rabbits are sold healthy to the best of our knowledge. Deposits are required to hold any bunny and are non-refundable. We reserve the right to cancel a sale at any time for the well-being of the animal.</p>
+        </div>
+            <p><br>We take back any rabbit to keep them out of shelters.</p>
+            <p>© 2026 Pleasant Ridge Rabbitry | Adolphus, KY</p>
+        </div>
+    </div>
+</body>
+<a href="#" class="back-to-top">↑ Top</a>
+
+</html>
